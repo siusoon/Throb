@@ -1,3 +1,5 @@
+![image1](https://github.com/siusoon/Throb/blob/master/throbbering1.gif)
+![image2](https://github.com/siusoon/Throb/blob/master/screensaver.png)
 # Throb
 Making a screen saver about Throbber
 Mac only. (tested on 10.12.6)
