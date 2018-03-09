@@ -12,7 +12,7 @@ A screen saver about Throbber and (generative) throbbing
 
 # How to install on your mac
 1. Dowload the repository [here](https://github.com/siusoon/Throb) by clicking the clone/download green button 
-![image2](https://github.com/siusoon/Throb/blob/master/download.png)
+  ![image2](https://github.com/siusoon/Throb/blob/master/download.png)
 
 2. Unzip the file and double click the file "p5.js-screen-saver.saver"
 
