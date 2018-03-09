@@ -10,7 +10,9 @@ Making a screen saver about Throbber
 # How to install on your mac
 - Dowload the repository [here](https://github.com/siusoon/Throb) by clicking the clone/download green button 
 ![image2](https://github.com/siusoon/Throb/blob/master/download.png)
+
 - Double click the file "p5.js-screen-saver.saver"
+
 ![image3](https://github.com/siusoon/Throb/blob/master/click.png)
 
 # Credit
