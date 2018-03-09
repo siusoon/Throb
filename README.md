@@ -5,8 +5,7 @@
 # Throb
 Making a screen saver about Throbber
 - Mac only (tested on 10.12.6).
-
-Built in p5.js
+- Built in p5.js
 
 # How to install on your mac
 - Dowload the repository [here](https://github.com/siusoon/Throb)
