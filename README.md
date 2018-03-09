@@ -17,6 +17,8 @@ A screen saver about Throbber and (generative) throbbing
 2. Unzip the file and double click the file "p5.js-screen-saver.saver"
 
   ![image3](https://github.com/siusoon/Throb/blob/master/click.png)
+  
+3. In the system preference, choose screensaver, choose Throb > click preview. (select your screensaver time)
 
 # Credit
 https://github.com/mactkg/p5.js-screen-saver by @mactkg
