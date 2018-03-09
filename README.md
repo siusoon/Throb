@@ -1,6 +1,6 @@
 ![image1](https://github.com/siusoon/Throb/blob/master/throbbering1.gif)
 
-<img src ="https://github.com/siusoon/Throb/blob/master/screensaver.png" width="500px">
+<img src ="https://github.com/siusoon/Throb/blob/master/screensaver.png" width="600px">
 
 # Throb
 Making a screen saver about Throbber
