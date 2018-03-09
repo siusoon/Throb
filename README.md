@@ -4,7 +4,7 @@
 
 # Throb
 Making a screen saver about Throbber
-Mac only. (tested on 10.12.6)
+- Mac only (tested on 10.12.6).
 
 Built in p5.js
 
