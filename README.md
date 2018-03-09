@@ -12,8 +12,7 @@ Making a screen saver about Throbber
 ![image2](https://github.com/siusoon/Throb/blob/master/download.png)
 
 - Double click the file "p5.js-screen-saver.saver"
-
-![image3](https://github.com/siusoon/Throb/blob/master/click.png)
+  ![image3](https://github.com/siusoon/Throb/blob/master/click.png)
 
 # Credit
 https://github.com/mactkg/p5.js-screen-saver by @mactkg
