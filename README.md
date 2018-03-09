@@ -2,8 +2,10 @@
 
 <img src ="https://github.com/siusoon/Throb/blob/master/screensaver.png" width="600px">
 
+![image2](https://github.com/siusoon/Throb/blob/master/mac.gif)
+
 # Throb
-Making a screen saver about Throbber
+A screen saver about Throbber and (generative) throbbing 
 - Mac only (tested on 10.12.6).
 - Built in p5.js
 
