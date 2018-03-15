@@ -12,7 +12,7 @@ A screen saver about Throbber and (generative) throbbing
 
 Related project: [The Spinning Wheel of Life](http://siusoon.net/?p=7)
 
-Related text: [Executing Microtemporality](https://www.academia.edu/32663026/Executing_Micro-temporalities)
+Related text: [Executing Micro-temporality](https://www.academia.edu/32663026/Executing_Micro-temporalities)
 
 # How to install on your mac
 1. Dowload the repository [here](https://github.com/siusoon/Throb) by clicking the clone/download green button 
