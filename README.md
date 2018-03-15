@@ -11,6 +11,7 @@ A screen saver about Throbber and (generative) throbbing
 - Work by Winnie Soon
 
 Related project: [The Spinning Wheel of Life](http://siusoon.net/?p=7)
+
 Related text: [Executing Microtemporality](https://www.academia.edu/32663026/Executing_Micro-temporalities)
 
 # How to install on your mac
