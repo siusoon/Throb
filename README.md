@@ -2,7 +2,7 @@
 
 ## Setting:
 The project is run in such an environment: 
-- Raspiberry PI 4 with node installed 
+- Raspiberry PI 4 with node installed and Firefox ESR (as it works well for full screen without the menu bar + auto download file in the default download folder)
 - ESPON Dot-Matrix Printer LQ350 (24 PIN): the printer driver can be installed via CUPS `sudo apt-get install cups`
 
 ## How it works:
@@ -11,8 +11,8 @@ The project is run in such an environment:
 - Pick one and then display in red, rotating clockwise by using the 4 strokes
 - Set a 'timer' to save a snapshot of the screen for printing (generate the image in the Download folder)
 - Need to run the node application to detect if any new images are generated then it will send intruction to a printer 
-command `Throb_print(print).js`
-- The EPSON printer will print out the snapshot of the generated image
+command `node Throb_print(print).js`
+- The EPSON printer will print out the snapshot of the generated image (need to set the default resolution and server default via `localhost:631`
 
 # Throb (2018) - Screensaver on Mac
 
