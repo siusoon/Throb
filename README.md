@@ -3,7 +3,7 @@
 ## Setting:
 The project is run in such an environment: 
 - Raspiberry PI 4 with node installed 
-- ESPON Dot-Matrix Printer LQ350 (24 PIN) 
+- ESPON Dot-Matrix Printer LQ350 (24 PIN): the printer driver can be installed via CUPS `sudo apt-get install cups`
 
 ## How it works:
 - A browser runs the index.html, showing the rotating throbber in black background 
@@ -11,6 +11,7 @@ The project is run in such an environment:
 - Pick one and then display in red, rotating clockwise by using the 4 strokes
 - Set a 'timer' to save a snapshot of the screen for printing (generate the image in the Download folder)
 - Need to run the node application to detect if any new images are generated then it will send intruction to a printer 
+command `Throb_print(print).js`
 - The EPSON printer will print out the snapshot of the generated image
 
 # Throb (2018) - Screensaver on Mac
