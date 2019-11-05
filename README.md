@@ -1,3 +1,20 @@
+# Throb (2019) - Installation
+
+## Setting:
+The project is run in such an environment: 
+- Raspiberry PI 4 with node installed 
+- ESPON Dot-Matrix Printer LQ350 (24 PIN) 
+
+## How it works:
+- A browser runs the index.html, showing the rotating throbber in black background 
+- It will display the throbber's stroke randomly and statically
+- Pick one and then display in red, rotating clockwise by using the 4 strokes
+- Set a 'timer' to save a snapshot of the screen for printing (generate the image in the Download folder)
+- Need to run the node application to detect if any new images are generated then it will send intruction to a printer 
+- The EPSON printer will print out the snapshot of the generated image
+
+# Throb (2018) - Screensaver on Mac
+
 ![image1](https://github.com/siusoon/Throb/blob/master/throbbering1.gif)
 
 <img src ="https://github.com/siusoon/Throb/blob/master/screensaver.png" width="600px">
