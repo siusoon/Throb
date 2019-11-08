@@ -1,6 +1,6 @@
 /*
 Throb (2018, 2019) by Winnie Soon {www.siusoon.net}
-last update: 19 Oct 2019
+last update: 8 Nov 2019
 - update to test linux and pi version
 - change speed, spacing, textsize, h
 - add screenshot printing function (include screenshot, change bg and stroke colors)
@@ -109,16 +109,12 @@ let sketch = function(s) {
 	  	goPrint = true;
 	}
     }
-    if (s.day() == 8 && s.hour() < 21) {	//opening day
+    if (s.day() == 8 && s.hour() > 9 && s.hour() < 21) {	//opening day
    	goPrint = true;
 	if (s.hour() == 20 && s.minute() > 1) {
            goPrint = false;	
 	}
-    }
-    if (s.day() == 19 && s.hour() < 21) {	//hard code testing day
-   	goPrint = true;
-    }
-   
+
     if (goPrint) {
        let t = s.year().toString() + s.month().toString() + s.day().toString() + s.hour().toString() + s.minute().toString();
        s.saveCanvas(t, 'jpg'); 
