@@ -3,15 +3,19 @@
 ## Setting:
 The project is run in such an environment: 
 - Raspiberry PI 4 with node installed and Firefox ESR (as it works well for full screen without the menu bar + auto download file in the default download folder)
+- Raspiberry PI setting to off the screensaver and blank screen.
 - ESPON Dot-Matrix Printer LQ350 (24 PIN): the printer driver can be installed via CUPS `sudo apt-get install cups`
+- nodejs with the following modules: npm, sleep, hound, opn
 
 ## How it works:
+- type `node path/Throb_print(print).js`
+- The terminal will then start the web server and listen to the directory of 'Downloads' (checking if any new generated images). Then it will trigger the firefox -ESR browser to run the Throb.js. (For exhibition purpose: full screen and refresh)
+
+## Logic:
 - A browser runs the index.html, showing the rotating throbber in black background 
 - It will display the throbber's stroke randomly and statically
 - Pick one and then display in red, rotating clockwise by using the 4 strokes
-- Set a 'timer' to save a snapshot of the screen for printing (generate the image in the Download folder)
-- Need to run the node application to detect if any new images are generated then it will send intruction to a printer 
-command `node Throb_print(print).js`
+- Set a 'timer' to save a snapshot of the screen for printing (generate the image in the "Downloads" folder)
 - The EPSON printer will print out the snapshot of the generated image (need to set the default resolution and server default via `localhost:631`
 
 # Throb (2018) - Screensaver on Mac
